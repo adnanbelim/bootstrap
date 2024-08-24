@@ -1,0 +1,40 @@
+* {
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    background-color: red;
+    height: 200px;
+    padding: 10px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 48px;
+}
+
+section{
+    text-align: justify;
+    background-color: yellow;
+    padding: 10px;
+    height: 250px;
+}
+
+h3{
+    padding: 20px 0 20px 0;
+    font-size: 38px;
+}
+
+p{
+    font-weight: 600;
+    font-size: 28px;
+}
+
+div{
+    text-align: justify;
+    background-color: orange;
+    height: 200px;
+    padding: 20px;
+}
+

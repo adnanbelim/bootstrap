@@ -1,0 +1,30 @@
+*{
+    margin: 0 auto;
+}
+
+header{
+    height: 100px;
+    background-color: red;
+}
+header>img{
+    float: left;
+}
+header>nav{
+    float: right;
+}
+header>nav>ul>li{
+    float: left;
+    padding: 20px;
+    list-style: none;
+    color: #fff;
+}
+.bg{
+    height: 500px;
+    background: url('./logo-web.webp');
+    background-size: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+ol>li{
+    text-transform: uppercase;
+}

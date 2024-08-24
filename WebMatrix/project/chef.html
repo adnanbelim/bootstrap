@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Management</title>
+    <link rel="shortcut icon" href="./assets/img/fevicon.png" type="image/x-icon">
+    <!-- local css -->
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- font awesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand" href="#">The Recipe Point</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./chef.html">Our Chef</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Varieties
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./veg.html">Veg</a></li>
+    
+                            <li><a class="dropdown-item" href="./nonveg.html">Non-Veg</a></li>
+    
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="./fastfood.html">Fast - Food</a></li>
+    
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+    
+            </div>
+        </div>
+    </nav>
+
+<!-- nav end======================= -->
+
+
+    <section class="bg-dark bg-main bg-color first-section">
+        <div class="container-fluid  chef-bg ">
+            <div class="row text-lg-start">
+                <h2 class="text-lg-start h-35 text-light fw-bolder">
+                    Our Chefs
+                </h2>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="container mt-5 mb-3">
+
+        <section class="service-section mb-5 pt-5 bg-dark">
+            <div class=" container common-title text-center fw-bolder">
+                <h2 class="common-heading text-capitalize text-light">Our Multiverse<br> Chefs</h2>
+                <hr class="w-25 mx-auto">
+            </div>
+
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="container">
+                            <div class="row px-6 pb-5">
+                                <div class="col-12 col-lg-4">
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="./assets/img/chef3.png" class="card-img-top" alt="testimonial text">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Chef Dr. Strange</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and
+                                                make
+                                                up the bulk of the card's
+                                                content.</p>
+                                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                                            <div class="mt-3">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="far fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-lg-4">
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="./assets/img/chef2.png" class="card-img-top" alt="testimonial text">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Chef Spidy</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and
+                                                make
+                                                up the bulk of the card's
+                                                content.</p>
+                                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+
+                                            <div class="mt-3">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-lg-4">
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="./assets/img/cehf1.png" class="card-img-top" alt="testimonial text">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Chef Batman Knight</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and
+                                                make
+                                                up the bulk of the card's
+                                                content.</p>
+                                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+
+                                            <div class="mt-3">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="far fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                               
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container">
+                        <div class="row px-6 pb-5">
+                            <div class="col-12 col-lg-4">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="./assets/img/chefironman2.png" class="card-img-top" alt="testimonial text">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Chef Mr. Stark</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and
+                                            make
+                                            up the bulk of the card's
+                                            content.</p>
+                                        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                                        <div class="mt-3">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="col-12 col-lg-4">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="./assets/img/chefcaptain4.webp" class="card-img-top" alt="testimonial text">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Chef Captain America</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and
+                                            make
+                                            up the bulk of the card's
+                                            content.</p>
+                                        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        
+                                        <div class="mt-3">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="col-12 col-lg-4">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="./assets/img/chefhulk.png" class="card-img-top" alt="testimonial text">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Chef Banner (Hulk)</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and
+                                            make
+                                            up the bulk of the card's
+                                            content.</p>
+                                        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        
+                                        <div class="mt-3">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        
+                        
+                        </div>
+
+                        </div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container">
+                            <div class="row px-6 pb-5">
+                                <div class="col-12 col-lg-4">
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="./assets/img/chefblackwidow.png" class="card-img-top" alt="testimonial text">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Chef Black Widow</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and
+                                                make
+                                                up the bulk of the card's
+                                                content.</p>
+                                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                                            <div class="mt-3">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="far fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-12 col-lg-4">
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="./assets/img/chefloki.png" class="card-img-top" alt="testimonial text">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Chef Mighty Loki</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and
+                                                make
+                                                up the bulk of the card's
+                                                content.</p>
+                                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                            
+                                            <div class="mt-3">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-12 col-lg-4">
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="./assets/img/chefsuperman.png" class="card-img-top" alt="testimonial text">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Chef Superman</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and
+                                                make
+                                                up the bulk of the card's
+                                                content.</p>
+                                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                            
+                                            <div class="mt-3">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="far fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                            
+                            
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    </div>
+
+        <!-- footer===================================================== -->
+
+        <footer class="bg-dark text-light text-center">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="text-center">
+                        <img src="./assets/img/fevicon.png" alt="logo here" class="image-fluid img-foot">
+                        <h6 class="text-center pt-3">
+                            copyright @All rights reserved by WebMatrix 2024&#x24B8;
+                        </h6>
+                    </div>
+                </div>
+        
+        
+            </div>
+        
+        </footer>
+
+
+
+
+
+
+
+
+
+        <!-- JS Related ======================================================================-->
+
+        <script src="./assets/js/bootstrap.bundle.js"></script>
+
+
+</body>
+
+</html>

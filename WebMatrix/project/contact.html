@@ -1,0 +1,169 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Management</title>
+    <link rel="shortcut icon" href="./assets/img/fevicon.png" type="image/x-icon">
+    <!-- local css -->
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- font awesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand" href="#">The Recipe Point</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./chef.html">Our Chef</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Varieties
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./veg.html">Veg</a></li>
+    
+                            <li><a class="dropdown-item" href="./nonveg.html">Non-Veg</a></li>
+    
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="./fastfood.html">Fast - Food</a></li>
+    
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+    
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="bg-dark bg-main bg-color first-section">
+        <div class="container-fluid  contact-bg ">
+         <div class="row text-lg-start">
+            <h2 class="text-lg-start h-35 text-light fw-bolder">
+                Contact
+            </h2>
+         </div>
+        </div>
+
+    </section>
+
+    <div class="container mt-5 mb-3">
+
+        <!-- section part start-->
+        <div class="row mb-5">
+            <div class="col-12">
+                <div class=" container text-center fw-bolder">
+                    <h2 class="text-capitalize">Contact</h2>
+                    <hr class="w-25 mx-auto mb-5">
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3577.2815055969063!2d72.98547747607931!3d26.284972686784258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39418e7e0d255cf3%3A0x5ac5174a1431e729!2sLucky%20Institute%20of%20Professional%20Studies!5e0!3m2!1sen!2sin!4v1717408710164!5m2!1sen!2sin"
+                                width="600" height="510" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <form method="post">
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="" name="name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Email address </label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="" name="email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">File </label>
+                                <input type="file" class="form-control" id="exampleFormControlInput1" placeholder="" name="file">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Phone </label>
+                                <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="" name="phone">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="message"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send</button>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- section part end-->
+    </div>
+
+<footer class="bg-dark text-light text-center">
+    <div class="container text-center">
+        <div class="row">
+            <div class="text-center">
+                <img src="./assets/img/fevicon.png" alt="logo here" class="image-fluid img-foot">
+                <h6 class="text-center pt-3">
+                    copyright @All rights reserved by WebMatrix 2024&#x24B8;
+                </h6>
+            </div>
+        </div>
+
+
+    </div>
+
+</footer>
+
+
+
+
+
+
+
+
+    <!-- JS Related ======================================================================-->
+
+    <script src="./assets/js/bootstrap.bundle.js"></script>
+
+
+</body>
+
+</html>

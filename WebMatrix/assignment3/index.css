@@ -1,0 +1,43 @@
+* {
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: green;
+}
+
+section {
+    width: 50%;
+    float: left;
+    height: 300px;
+    background-color: red;
+}
+
+.div1{
+    height: 100px;
+    background-color: aquamarine;
+}
+.div2 {
+    height: 100px;
+    background-color: silver;
+}
+.div3 {
+    height: 100px;
+    background-color: blueviolet;
+}
+
+aside {
+    width: 50%;
+    float: right;
+    height: 300px;
+    background-color: yellow;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: green;
+    clear: both;
+}
